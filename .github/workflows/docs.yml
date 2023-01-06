@@ -21,7 +21,7 @@ jobs:
         uses: actions/setup-go@268d8c0ca0432bb2cf416faae41297df9d262d7f
         with:
           go-version: 1.18
-      - uses: actions/setup-node@2fddd8803e2f5c9604345a0b591c3020ee971a93
+      - uses: actions/setup-node@64ed1c7eab4cce3362f8c340dee64e5eaeef8f7c
         with:
           node-version: 17.6.0
         # Create Kind cluster to have a Kubernetes context for cloud-native-azure theme
